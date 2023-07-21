@@ -1,0 +1,167 @@
+*{margin: 0; padding:0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+
+body{
+	background: #f2f3ee;
+}
+
+header{
+	width: 100%;
+	overflow: hidden;
+	background: #da3b19;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive;
+	
+}
+
+.wrapper{
+	width: 90%;
+	max-width:1000px;
+	margin:auto; 
+	overflow: hidden;
+}
+
+header .logo{
+	color: #f5f5e0;
+	font-size: 40px;
+	letter-spacing: 4px;
+	line-height: 100px;
+	float: left;
+}
+
+header nav{
+float: right;
+line-height: 100px;
+
+}
+
+header nav a {
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height:normal;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;
+}
+
+header nav a:hover{
+	background: #e75b3e;
+	border-radius: 15px;
+}
+
+header div a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	padding: 0px 20px;
+	line-height:normal;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;	
+}
+
+.caja-actividades{
+	width: 650px;
+	height: 530px;
+	background: #f2f3ee;
+	color: #3d4041;
+	top: 50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 40px;
+	
+}
+
+.caja-actividades h1{
+	margin:0;
+	padding: 0 0 50px;
+	text-align: center;
+	font-size: 24px;
+	font-family: "Lucida Grande", sans-serif;
+	
+}
+
+.ladoIzq{
+	padding-bottom: 0.3em;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 19px;
+	text-align: center;
+}
+
+.ladoDer{
+	padding-bottom: 0.3em;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 19px;
+	text-align: center;
+}
+
+.ladoIzqTitle{
+	padding-left: 3.9em;
+	padding-right: 3.6em; 
+	padding-bottom: 1em;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.ladoDerTitle{
+	padding-right: 3.9em;
+	padding-left: 3.6em; 
+	padding-bottom: 1em;
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 25px;
+	text-align: center;
+}	
+
+.ladoIzqButton a{
+	text-align: center;
+	background: #da3b19;
+	border-radius: 15px;
+	display: inline-block;
+	color:white;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;
+	text-decoration: none;
+}
+
+.ladoIzqButton {	
+	text-align: center;
+	padding-bottom: 0.5em;
+
+}
+
+.ladoIzqButton a:hover{
+	background: #e75b3e;
+	border-radius: 15px;
+}
+
+
+.ladoDerButton a{
+
+	text-align: center;
+	background: #da3b19;
+	border-radius: 15px;
+	display: inline-block;
+	color:white;
+	padding: 0.5rem 1rem;
+	transition: all 0.20s linear;
+	text-decoration: none;
+}
+
+.ladoDerButton a:hover{
+	background: #e75b3e;
+	border-radius: 15px;
+
+}
+
+.ladoDerButton {	
+	text-align: center; 
+	padding-bottom: 0.5em;
+
+}
+
+
+
